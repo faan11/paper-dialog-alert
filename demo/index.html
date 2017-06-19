@@ -10,6 +10,7 @@
 
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../../paper-button/paper-button.html">
     <link rel="import" href="../paper-dialog-alert.html">
 
     <style is="custom-style" include="demo-pages-shared-styles">
@@ -20,7 +21,10 @@
       <h3>Basic paper-dialog-alert demo</h3>
       <demo-snippet>
         <template>
-          <paper-dialog-alert></paper-dialog-alert>
+          <paper-button onClick="document.getElementById('dialog1').open()" >Open it</paper-button>
+          <paper-dialog-alert id="dialog1" text="Il presente documento serve a disciplinare la commercializzazione di un bene o di un servizio per via telematica. La tutela dei consumatori impone al venditore di adempiere a particolari obblighi informativi, a protezione della parte debole del rapporto.">
+          </paper-dialog-alert>
+
         </template>
       </demo-snippet>
     </div>

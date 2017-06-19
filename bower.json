@@ -1,14 +1,16 @@
 {
   "name": "paper-dialog-alert",
-  "description": "A paper dialog with a title, an alert icon and two buttons ( continue or delete ). An example: https://material-components-web.appspot.com/dialog.html",
   "main": "paper-dialog-alert.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.9.0"
+    "polymer": "Polymer/polymer",
+    "paper-button": "PolymerElements/paper-button#^2.0.0",
+    "paper-dialog": "PolymerElements/paper-dialog#^2.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^2.0.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
-    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+    "iron-component-page": "PolymerElements/iron-component-page",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers",
+    "web-component-tester": "Polymer/web-component-tester",
+    "webcomponentsjs": "webcomponents/webcomponentsjs"
   }
 }

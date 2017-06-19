@@ -1,6 +1,6 @@
 # \<paper-dialog-alert\>
 
-A paper dialog with a title, an alert icon and two buttons ( continue or delete ). An example: https://material-components-web.appspot.com/dialog.html
+
 
 ## Install the Polymer-CLI
 
