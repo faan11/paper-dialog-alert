@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`paper-dialog-alert`
+A paper dialog with a title, an alert icon and two buttons ( continue or delete ). An example: https://material-components-web.appspot.com/dialog.html
+
+@demo demo/index.html
+-->
+
+<dom-module id="paper-dialog-alert">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'paper-dialog-alert',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'paper-dialog-alert',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
