@@ -118,7 +118,7 @@
       }
     </style>
 
-    <paper-dialog id="papDialog" class="centerfullscreen" exit-animation="fade-out-animation" with-backdrop>
+    <paper-dialog opened="{{opened}}" id="papDialog" class="centerfullscreen" exit-animation="fade-out-animation" with-backdrop>
 
       <div class="container flex-horizontal title_container">
         <div class="flexchild">
@@ -181,6 +181,11 @@
           type: String,
           notify: true,
           value: "warning"
+        },
+        opened: {
+          type: Boolean,
+          notify: true,
+          value: false
         },
       },
       _changeText: function(newValue, oldValue) {
